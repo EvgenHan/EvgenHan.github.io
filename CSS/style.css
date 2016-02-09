@@ -1,0 +1,25 @@
+body {
+  background-color: lavender;
+}
+.back-white {
+  background-color: white ;
+  width: 600px;
+  margin:auto;;
+  padding:20px;
+}
+.content {
+  margin: auto;
+  padding: 20px;
+}
+ .wrapper {
+    height: 350px;
+    width: auto;
+    background: url(../img/I_and_marina.jpg) 50px 10px no-repeat;
+ }
+ .p {
+    font-family: Tahoma;
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 30px;
+}
