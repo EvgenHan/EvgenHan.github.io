@@ -2,10 +2,10 @@ body {
   background-color: lavender;
 }
 .back-white {
-  background-color: white ;
+  background-color: white;
   width: 600px;
-  margin:auto;;
-  padding:20px;
+  margin: auto;
+  padding: 20px;
 }
 .content {
   margin: auto;
