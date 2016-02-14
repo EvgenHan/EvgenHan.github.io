@@ -10,11 +10,6 @@ body {
   margin: auto;
   height: 130px;
 }
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block;
-}
 .menu {
   padding: 0px 0px 0px 60px;
   background-color: rgb(79, 79, 79);
