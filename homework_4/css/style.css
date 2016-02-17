@@ -162,7 +162,7 @@ a.contacts {
   border: 1px solid;
   background-color:#edeef0;
   height: 639px;
-  overflow:hidden
+  overflow:hidden;
 }
 .info {
   padding-left: 40px;
@@ -175,7 +175,7 @@ a.contacts {
   float: left;
   width: 50%;
   height: 616px;
-  overflow:hidden
+  overflow:hidden;
 }
 .sidebar2 {
   position: absolute;
@@ -186,7 +186,7 @@ a.contacts {
   border: 1px solid;
   background-color:#edeef0;
   height: 639px;
-  overflow:hidden
+  overflow:hidden;
 }
 .news {
   padding-left: 40px;
