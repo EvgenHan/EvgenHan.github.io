@@ -11,6 +11,7 @@
 }
 body {
   background: url(../img/fon.png);
+  background-color: rgb(0, 115, 161);
   background-size: 100% 100%;
   margin: 0 auto;
   height: 1120px;
