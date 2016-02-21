@@ -53,107 +53,106 @@ a.contacts {
   padding-top: 5px;
 }
 .navigation {
-	list-style: none;
-	padding-left: 639px;
+  list-style: none;
+  padding-left: 639px;
   padding-top: 25px;
 }
 .navigation li {
-	float: left;
-	margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 .navigation li a {
-	display: block;
-	text-align: center;
-	padding-top: 40px;
-	color: #1BA1BA;
-	background-position: center top;
-	background-repeat: no-repeat;
-	width: 41px;
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  color: #1BA1BA;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 41px;
   font: 0.6em Arial;
   padding-left: 5px;
 }
 .navigation .indija a {
-	background-image: url(../img/indija.png);
+  background-image: url(../img/indija.png);
 }
 .navigation .nepal a {
-	background-image: url(../img/nepal.png);
+  background-image: url(../img/nepal.png);
 }
 .navigation .tibet a {
-	background-image: url(../img/tibet.png);
+  background-image: url(../img/tibet.png);
 }
 .navigation .butan a {
-	background-image: url(../img/butan.png);
+  background-image: url(../img/butan.png);
 }
 .navigation .schrilanka a {
-	background-image: url(../img/schrilanka.png);
+  background-image: url(../img/schrilanka.png);
 }
 .navigation .maldivi a {
-	background-image: url(../img/maldivi.png);
+  background-image: url(../img/maldivi.png);
 }
 .navigation li a:hover {
-	color: #0000CC;
+  color: #0000CC;
 }
 .header {
-	width: 1000px;
-	height: 235px;
+  width: 1000px;
+  height: 235px;
 }
 
 .header img {
   margin-top: 2px;
 }
 .menu {
-	list-style:none;
+  list-style:none;
   padding-top: 5px;
   padding-left: 50px;
   width: 950px;
   background: rgb(50,50,50);
-  /*z-index: 2;*/
 }
 .menu li {
-	float:left;
-	margin-right: 10px;
+  float:left;
+  margin-right: 10px;
   margin-left: 10px;
-	position:relative;
+  position:relative;
 }
 .menu li a {
-	display:block;
-	padding:5px;
-	color:#fff;
-	text-decoration:none;
+  display:block;
+  padding:5px;
+  color:#fff;
+  text-decoration:none;
   padding-right: 25px;
 }
 .menu li a:hover {
-	color:#fff;
-	background:#6b0c36;
-	text-decoration:underline;
+  color:#fff;
+  background:#6b0c36;
+  text-decoration:underline;
 }
 .menu ul {
-	list-style:none;
-	position:absolute;
-	left:-9999px;
+  list-style:none;
+  position:absolute;
+  left:-9999px;
   z-index: 900;
 }
 .menu ul li {
-	float:none;
+  float:none;
 }
 .menu li:hover ul {
-	left: 0;
+  left: 0;
 }
 .menu li:hover a {
-	background: #323232;
-	text-decoration:underline;
+  background: #323232;
+  text-decoration:underline;
 }
 .menu li:hover ul a {
-	text-decoration:none;
+  text-decoration:none;
 }
 .menu li:hover ul li a:hover {
-	background:#333;
-	text-decoration:underline;
+  background:#333;
+  text-decoration:underline;
 }
 .put, .usl, .par  {
   background: url(../img/cut.png);
   background-position: right;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .container {
   margin: 0 auto;
@@ -185,8 +184,8 @@ a.contacts {
 }
 .text {
   padding-top: 40px;
-	position:relative;
-	left:15%;
+  position:relative;
+  left:15%;
 }
 .sidebar2 {
   float:right;
@@ -199,17 +198,17 @@ a.contacts {
 .news {
   margin-top: inherit;
   padding-top: 40px;
-	position:relative;
-	left:15%;
+  position:relative;
+  left:15%;
 }
 h2 {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .info h2:nth-child(1) {
   padding-left: 10px;
 }
 .hFooter {
-	height: 5px;
+  height: 5px;
 }
 .footer {
   position: absolute;
