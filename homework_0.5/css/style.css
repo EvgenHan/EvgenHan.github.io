@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: 'Nelvetica Neue Cyrthin';
+    src: url('fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  margin: 0 auto;
+  font-family: 'Nelvetica Neue Cyrthin';
+}
+.container {
+  margin: 0 auto;
+  min-height: 100%;
+}
+.menu table {
+  float: right;
+  background: #07508f;
+}
+.menu {
+  width: 1215px;
+  height: 40px;
+  background:#07508f url(../img/background_menu.png);
+  margin: 0 auto;
+}
+.global-nav table {
+  margin: 0 auto;
+}
+.global-nav {
+  background:#07508f;
+}
+.global-nav li {
+	float:left;
+	margin-right: 0px;
+  margin-left: 0px;
+	display:block;
+  padding: 5px;
+}
+.global-nav2 li {
+	float:right;
+	margin-right: 0px;
+  margin-left: 0px;
+	display:block;
+  padding: 5px;
+}
+.global-nav li a, .global-nav2 li a {
+  color: white;
+  text-decoration: none;
+}
+.fon {
+  background: url(../img/background1.png) no-repeat center center fixed;
+  margin: 0 auto;
+  width: 1215px;
+  min-height:1027px;
+  background-size: 100% 100%;
+}
+.cadastre-se {
+position: absolute;
+/*width: 560px;*/
+top: 25%;
+left: 30%;
+text-align: center;
+/*z-index: 5;*/
+background: rgba(90,90, 90, 0.7);
+}
+.cadastre-se  hr {
+  color: #fff;
+  width: auto;
+}
+.cadastre-se img {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.form1 {
+width: 560px;
+padding-top: 40px;
+}
+.form2 {
+width: 560px;
+height: 360px;
+}
+
+.form2 input {
+  background: #0f0f0f url(../img/layer1_10.png);
+  /*border: 0px 0px 1px 0px;*/
+  color: #fff;
+  text-align: center;
+  padding: 7px 65px 7px 65px;
+  margin: 10px 70px;
+}
+.form2 input:hover {
+  background:#1b5288 no-repeat ;
+  box-shadow: 0 0 5px;
+}
+.form2 input:nth-child(7) {
+  background: #2f7bc5;
+  box-shadow: inset 0px 1px 20px 1px;
+  width: 150px;
+  padding: 5px 13px 5px 13px;
+}
+.form2 label input {
+  /*padding: 10px;*/
+}
+.layer2 {
+  margin: 300px;
+  width: 560px;
+  height: 610px;
+}
+.form2  label {
+  padding-right: 10px;
+}
+p, a {
+font-family: 'Nelvetica Neue Cyrthin';
+}
