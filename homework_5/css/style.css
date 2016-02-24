@@ -20,46 +20,61 @@ body {
   margin: 0 auto;
   min-height: 100%;
 }
-.menu table {
-  float: right;
-  background: #07508f;
+.menu a {
+  color: rgb(60, 134, 193);
+  /*float: right;*/
+  /*background: #07508f;*/
 }
 .menu {
   width: 1215px;
-  height: 40px;
-  background:#07508f url(../img/background_menu.png);
+  height: 35px;
+  background: #07508f url(../img/background_menu.png);
   margin: 0 auto;
+  /*color: #fff;*/
+  /*padding-left: 639px;*/
+  /*padding-top: 5px;*/
+}
+.white a {
+  color: #fff;
 }
 .global-nav table {
   margin: 0 auto;
 }
 .global-nav {
   background:#07508f;
+  list-style: none;
+  padding-left: 500px;
 }
 .global-nav li {
 	float:left;
 	margin-right: 0px;
   margin-left: 0px;
 	display:block;
-  padding: 5px;
+  padding: 6px;
 }
-.global-nav2 li {
+/*.global-nav2 li {
 	float:right;
 	margin-right: 0px;
   margin-left: 0px;
 	display:block;
-  padding: 5px;
+  padding: 5px;*/
 }
-.global-nav li a, .global-nav2 li a {
-  color: white;
+.global-nav li a {
   text-decoration: none;
+
+
+}
+.global-nav  li a:hover {
+  background: rgb(47, 124, 197);
+  padding: 10px 0px;
+  color: #fff;
 }
 .fon {
   background: url(../img/background1.png) no-repeat center center fixed;
   margin: 0 auto;
   width: 1215px;
   min-height:1027px;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
 }
 .cadastre-se {
 position: absolute;
@@ -86,13 +101,15 @@ padding-top: 40px;
 width: 560px;
 height: 360px;
 }
-
+.form2 label input {
+  margin: 10px 10px;
+}
 .form2 input {
   background: #0f0f0f url(../img/layer1_10.png);
   /*border: 0px 0px 1px 0px;*/
   color: #fff;
-  text-align: center;
-  padding: 7px 65px 7px 65px;
+  text-align: left;
+  padding: 7px 65px 7px 15px;
   margin: 10px 70px;
 }
 .form2 input:hover {
@@ -116,6 +133,6 @@ height: 360px;
 .form2  label {
   padding-right: 10px;
 }
-p, a {
+p a {
 font-family: 'Nelvetica Neue Cyrthin';
 }
