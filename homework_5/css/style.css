@@ -55,35 +55,40 @@ body {
   padding: 10px 0px;
   color: #fff;
 }
+.layer36 {
+  background: url(../img/layer_36.png) no-repeat;
+  width: 0px;
+  margin-top: 5px;
+  height: 30px;
+}
+.inventicons29 {
+  background: url(../img/inventicons29.png) no-repeat;
+  width: 10px;
+  margin-top: 5px;
+  height: 30px;
+}
 .fon {
   background: url(../img/background1.png) no-repeat center center fixed;
   margin: 0 auto;
   width: 1215px;
   min-height:1027px;
-  /*background-size: 100% 100%;*/
 }
 .cadastre-se {
-position: absolute;
-top: 25%;
-left: 30%;
-text-align: center;
-background: rgba(90,90, 90, 0.7);
+  height: 550px;
+  width: 350px;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  text-align: center;
+  background: rgba(90,90, 90, 0.8);
 }
 .cadastre-se  hr {
   color: #fff;
   width: auto;
 }
-.cadastre-se img {
-  padding-top: 10px;
-  padding-left: 10px;
-}
-.form1 {
-width: 560px;
-padding-top: 40px;
-}
-.form2 {
-width: 560px;
-height: 360px;
+.cadastre-se a img {
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 .form2 label input {
   margin: 10px 10px;
