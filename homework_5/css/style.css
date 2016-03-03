@@ -17,8 +17,11 @@ body {
   font-family: 'Nelvetica Neue Cyrthin';
 }
 .container {
+  position: relative;
+  width: 1215px;
+  height: 1064px;
   margin: 0 auto;
-  min-height: 100%;
+  background: url(../img/background1.png) no-repeat center center fixed;
 }
 .menu a {
   color: rgb(60, 134, 193);
@@ -29,8 +32,13 @@ body {
   background: #07508f url(../img/background_menu.png);
   margin: 0 auto;
 }
-.white a {
+.white a, li.white {
   color: #fff;
+
+}
+ li.white.decot:hover {
+
+  text-decoration: underline;
 }
 .global-nav table {
   margin: 0 auto;
@@ -67,28 +75,35 @@ body {
   margin-top: 5px;
   height: 30px;
 }
-.fon {
-  background: url(../img/background1.png) no-repeat center center fixed;
-  margin: 0 auto;
-  width: 1215px;
-  min-height:1027px;
-}
 .cadastre-se {
-  height: 550px;
-  width: 350px;
+  background: rgba(25,34, 29, 0.8);
   position: absolute;
-  top: 25%;
-  left: 38%;
-  text-align: center;
-  background: rgba(90,90, 90, 0.8);
+  width: 500px;
+  height: 620px;
+  top: 50%;
+  left: 50%;
+  margin-top: -310px;
+  margin-left: -250px;
+}
+.cadastre-se h1 {
+  color: #fff;
+  text-align:  center;
 }
 .cadastre-se  hr {
   color: #fff;
   width: auto;
 }
 .cadastre-se a img {
-  padding-top: 40px;
+  padding-left: 22%;
   padding-bottom: 10px;
+}
+.cadastre-se  img {
+  padding-left: 22%;
+  padding-top: 40px;
+}
+.form2{
+  padding-left: 3%;
+  padding-top: 40px;
 }
 .form2 label input {
   margin: 10px 10px;
@@ -97,8 +112,9 @@ body {
   background: #0f0f0f url(../img/layer1_10.png);
   color: #fff;
   text-align: left;
-  padding: 7px 65px 7px 15px;
-  margin: 10px 70px;
+  padding: 8px 120px 10px 20px;
+margin: 15px 0px 0px 90px;
+  border: 0;
 }
 .form2 input:hover {
   background:#1b5288 no-repeat ;
@@ -110,9 +126,30 @@ body {
   width: 150px;
   padding: 5px 13px 5px 13px;
 }
+.create_my {
+  background: url(../img/create.png) no-repeat;
+  padding: 20px;
+  margin: 50px 10px 10px 170px;
+}
 .form2  label {
   padding-right: 10px;
 }
+.check-div {
+  margin: 15px 0 15px 110px;
+  height: 15px;
+    width: 250px;
+    float: left;
+}
+.check-div input {
+    float: left;
+    margin: 5px 15px 0 0;
+    display: block;
+  }
+  .cadastre-se-footer {
+    text-align: center;;
+    padding: 20px;
+    margin: -18px 20px 10px 20px;
+  }
 p, a {
 font-family: 'Nelvetica Neue Cyrthin';
 }
