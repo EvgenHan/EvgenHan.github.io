@@ -21,7 +21,7 @@ body {
   width: 1215px;
   height: 1064px;
   margin: 0 auto;
-  background: url(../img/background1.png) no-repeat center center fixed;
+  background: url(../img/background1.png) no-repeat center center;
 }
 .menu a {
   color: rgb(60, 134, 193);
