@@ -91,9 +91,8 @@ padding: 0 10px 0 10px;
 }
  h1 {
   color: #ccc;
-  text-align:  center;
-  font-size: 28px;
-  font-family: Tahoma sans-serif;
+  text-align: center;
+  font: 28px "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
   padding: 14px;
 }
 .cadastre-se  hr {
