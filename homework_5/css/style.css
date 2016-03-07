@@ -48,7 +48,7 @@ li.white a.decot:hover {
 .global-nav {
   background:#07508f;
   list-style: none;
-  padding-left: 380px;
+  padding-left: 370px;
 }
 .global-nav li {
 	float:left;
@@ -136,9 +136,6 @@ margin: 23px 0px 0px 90px;
   background: url(../img/create.png) no-repeat;
   padding: 20px;
   margin: 50px 10px 10px 199px;
-}
-.form2  label {
-  padding-right: 10px;
 }
 .check-div {
   color: rgba(204,204,204,0.6);
