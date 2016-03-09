@@ -91,8 +91,9 @@ padding: 0 10px 0 10px;
 }
  h1 {
   color: #ccc;
-  text-align: center;
-  font: 28px "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+  text-align:  center;
+  font-size: 28px;
+  font-family: Tahoma sans-serif;
   padding: 14px;
 }
 .cadastre-se  hr {
@@ -114,28 +115,27 @@ padding: 0 10px 0 10px;
 .form2 label input {
   margin: 10px 10px;
 }
-.form2 input {
+.form2 .for {
   background: #0f0f0f url(../img/layer1_10.png);
   color: #fff;
   text-align: left;
   padding: 8px 120px 10px 20px;
-margin: 23px 0px 0px 90px;
+  margin: 23px 0px 0px 90px;
   border: 0;
 }
-.form2 input:hover {
+.form2 .for:hover {
   background:#1b5288 no-repeat ;
   box-shadow: 0 0 5px;
 }
-.form2 input:nth-child(7) {
-  background: #2f7bc5;
-  box-shadow: inset 0px 1px 20px 1px;
-  width: 150px;
-  padding: 5px 13px 5px 13px;
-}
-.create_my {
-  background: url(../img/create.png) no-repeat;
-  padding: 20px;
-  margin: 50px 10px 10px 199px;
+.sendsubmit {
+  width: 155px; 
+  height: 43px;
+  border: 0;
+  background: transparent url(../img/create.png) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer;
+  padding: 0px 0px 0px 0px;
+  margin: 0 155px;
 }
 .check-div {
   color: rgba(204,204,204,0.6);
