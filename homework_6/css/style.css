@@ -64,7 +64,7 @@ body {
 }
 .login-center a:nth-child(4) {
   text-decoration:underline;
-  color:#bfbfbf;
+
   margin:0 0 0 -1px;
 }
 .login-center a:nth-child(5){
@@ -115,7 +115,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #b1bcc0;
+  color: #206988;
   outline: none;
 }
 .mini-menu img {
@@ -183,7 +183,7 @@ a img {
   color: #fff;
   text-decoration: none;
   background: url(../img/main-hover.png) no-repeat center center;
-
+  background-size: 80% 90%;
 }
 .case {
   margin: -18px 0 0 664px;
@@ -456,11 +456,11 @@ form input, textarea {
 .side-menu-block {
     height: auto;
     width: 180px;
-    padding: 5px 0 0 0px;
-    margin: 5px 0 0px 0;
+    padding: 0px 0 0 0px;
+    margin: 9px 0 0px 12px;
 }
 .side-block-title {
-    padding: 6px 0 0 34px;
+    padding: 10px 0 0 34px;
     display: block;
     width: 118px;
     height: 28px;
@@ -471,9 +471,9 @@ form input, textarea {
 .side-menu-item {
     display: block;
     width: 130px;
-    height: 14px;
-    padding: 1px 0 0 10px;
-    margin: 10px 0 0 30px;
+    height: 21px;
+    padding: 0px 0 0 10px;
+    margin: 0px 0 0 35px;
     color: #465961;
     font: 12px/13px "Lucida Sans Unicode", Verdana, Arial;
     background: url(../img/marker.png) no-repeat 0 4px;
@@ -484,6 +484,7 @@ form input, textarea {
     font-weight: bold;
     background: url(../img/marker-hover.png) no-repeat 0 5px;
     color: #0c3256;
+    text-decoration: underline;
 }
 .left-content {
     color: #206988;
@@ -492,8 +493,8 @@ form input, textarea {
 }
 .center-content {
     float: left;
-    margin: 0 2px 30px;
-    padding: 0 0 10px 0px;
+    margin: 0 0px 50px 0;
+    padding: 0 0 0px 0px;
     background: url(../img/middle-back.png) repeat-x #93a7b0;
     width: 526px;
     height: auto;
@@ -522,7 +523,7 @@ a img {
 .catalog-item-middle {
     position: relative;
     float: left;
-    margin: 10px 5px 15px 20px;
+    margin: 10px 5px 15px 17px;
 }
 .catalog-item-middle div {
     overflow: hidden;
@@ -549,9 +550,9 @@ a img {
     top: 30px;
     text-align: center;
     left: 207px;
-    margin: 5px 0 0 0;
+    margin: 5px 0 0 15px;
     color: #114165;
-    font: bold 13px/13px "Lucida Sans Unicode", Verdana, Arial;
+    font: bold italic 18px/16px  sans-serif;
 }
 .catalog-item-middle div p {
     color: #626262;
@@ -587,13 +588,89 @@ a img {
     width: 83px;
     background: url(../img/choose-button-back.png) no-repeat;
     border: none;
-    margin: 10px 0 0 25px;
+    margin: 16px 0 0 29px;
     cursor: pointer;
 }
 .tire-companies {
     width: 100%;
-    margin: 0px 0 20px;
+    margin: 0px 0 20px 110px;
     text-align: center;
+    /*height: 27px;
+    width: 676px;*/
+}
+.menu-companies {
+  position: relative;
+  overflow: hidden;
+  /*margin: 10px 0 0 10px;*/
+}
+.menu-companies li {
+  float: left;
+  list-style: none;
+  /*margin-right: 25px;*/
+}
+.menu-companies a {
+  display: block;
+  height: 27px;
+  width: 99px;
+  background: #fff url(../img/sprite_brend.png)
+}
+.menu-companies a:hover {
+  background-position: -12px 27px
+}
+.menu-companies .toyo {
+  background-position: -12px 0;
+}
+.menu-companies .bridgetone {
+  background-position: -110px 0px;
+
+}
+.menu-companies .bridgetone:hover {
+  background-position: -110px 27px;
+
+}
+.menu-companies .continental {
+  background-position: -210px 0;
+}
+.menu-companies .continental:hover {
+  background-position: -210px 27px;
+}
+.menu-companies .cooper {
+  background-position: -308px 0;
+  width: 82px;
+}
+.menu-companies .cooper:hover {
+  background-position: -308px 27px;
+  width: 82px;
+}
+.menu-companies .avon {
+  background-position: -420px 0;
+  width: 80px;
+}
+.menu-companies .avon:hover {
+  background-position: -420px 27px;
+  width: 80px;
+}
+.menu-companies .tirefac {
+  background-position: -510px 0;
+  width: 70px;
+}
+.menu-companies .tirefac:hover {
+  background-position: -510px 27px;
+  width: 70px;
+}
+.menu-companies .pirelli {
+  background-position: -602px 0;
+  width: 70px;
+}
+.menu-companies .pirelli:hover {
+  background-position: -602px 27px;
+  width: 70px;
+}
+.menu-companies .dunlop {
+  background-position: -694px 0;
+}
+.menu-companies .dunlop:hover {
+  background-position: -694px 27px;
 }
 .footer {
     margin: 0px auto;
@@ -610,4 +687,7 @@ a img {
     display: inline;
     color: #bec6c9;
     font-size: 13px;
+}
+.footer  ul li a:hover {
+  color:#fff;
 }
